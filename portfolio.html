@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width", initial-scale="1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Personal portfolio</title>
+   <style>
+      /* Reset default browser styles */
+      * {
+         margin: 0;
+         padding: 0;
+         font-family:sans-serif;
+      }
+
+      /* Styles for header section */
+      .header {
+         width: 100%;
+         height: 400vh;
+         background-color:gainsboro;
+      }
+
+      /* Styles for navigation bar */
+      nav {
+         display: flex;
+         margin: auto;
+         width: 90%;
+         padding: 10px;
+         align-items: calc();
+         justify-content: space-between;
+      }
+
+      nav ul li {
+         display: inline-block;
+         list-style: none;
+         margin: 10px;
+      }
+
+      nav ul li a {
+         text-decoration: none;
+         color:black;
+         font-weight: bolder;
+      }
+
+      nav ul li a:hover {
+         background-color: gainsboro;
+         border-radius: 3px;
+         color: white;
+      }
+
+      .button-cv, .button-gfc{
+         display: inline-block;
+         margin-left: 0%;
+         border-radius: 5px;
+         transition: background-color 0.5s;
+         background: black;
+         padding: 10px;
+         text-decoration: none;
+         font-weight: bold;
+         color: white;
+         border: none;
+         cursor: pointer;
+      }
+
+      .button-cv:hover {
+         background-color: white;
+         color: black;
+      }
+
+      .button-gfc{
+         background: lightsalmon;
+      }
+
+      .button-gfc:hover {
+         background-color: white;
+         color: black;
+      }
+
+      /* Styles for body section */
+      .body {
+         margin-left: 100px;
+         margin-top: 100px;
+      }
+
+      .body h1 {
+         font-size: 30px;
+         color:black;
+         margin-bottom: 10px;
+      }
+
+      .demo1 {
+         color:red;
+         margin-bottom: 10px;
+      }
+  
+      .demo2 {
+         color: black;
+         line-height: 20px;
+      }
+
+      .button-lrn, .button-hire{
+         background: lightsalmon;
+         padding: 10px 12px;
+         text-decoration: none;
+         font-weight: bold;
+         color: whitesmoke;
+         display: inline-block;
+         margin: 30px 3px;
+         border-radius: 10px;
+         transition: background-color 0.9s;
+         border: 10px;
+         letter-spacing: 1px;
+         cursor: pointer;
+      }
+
+      .button-lrn:hover {
+         background-color: whitesmoke;
+         color: black;
+      }
+
+      .button-hire {
+         background: black;
+      }
+
+      .button-hire:hover {
+         background-color: seagreen;
+      }
+
+      span {
+         color: seagreen;
+       }
+
+      /* Styles for image section */
+      .image {
+         width: 40%;
+         height: 100%;
+         position: absolute;
+         bottom: 0;
+         right: 100px;
+      }
+      .image img {
+         height: 70%;
+         position:absolute;
+         left: 50%;
+         bottom: 10%;
+         transform: translate(-60%);
+      }
+   </style>
+</head>
+<body>
+   <!-- Header section -->
+   <div class="header">
+      <nav>
+         <a href="#"><img src="https://www.tutorialspoint.com/images/logo.png?v2" alt="logo" class="logo"></a>
+         <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">SKILLS</a></li>
+            <li><a href="#">RESUME</a></li>
+            <li><a href="#">CONTACT ME</a></li>
+            <li><button type="button"class="button-gfc">Get Free Consultant</button></li>
+            <li><button type="button" class="button-cv">DOWNLOAD CV</button></li>
+         </ul>
+      </nav>
+
+      <!-- Body section -->
+      <div class="body">
+         <p class="demo1">GET EVERY SINGLE SOLUTIONS.</p>
+         <h1>Hello <br> I'm SIVAHYMA <span>GHANTA.</span></h1>
+         <p class="demo2">From concept to deployment, I bring ideas<br> to life as a versatile full stack developer...</p>
+         <button type="button" class="button-lrn">LEARN MORE</button>
+         <button type="button" class="button-hire">HIRE ME</button>
+      </div>
+
+      <!-- Image section -->
+      <div class="image">
+         <img src="c:\Users\H\Downloads\download.jpg"
+      </div>
+   </div>
+      <!-- skills section -->
+       <div class="body">
+         <p class="demo1">SKILLS.</p>
+         <h1>I HAVE THE SKILLS: </h1>
+         <p class="demo2">1.Problem solving
+                          2.Analytical
+                          3.Project Management
+                          4.Research
+         </p>
+       </div>
+      <!-- Project section -->
+       <div class="body">
+         <p class="demo1">PROJECT.</p>
+         <h1> PROJECT TITLE: </h1>
+         <p class="demo2">PYTHON 101 FOR DATA SCIENCE</p>
+         <h1> DESCRIPTION: </h1>
+         <p class="demo2">Iam glad to completed a course in cognitive powered by IBM  to level up my experiences</p>
+         <h1> IMAGE:</h1>
+         <img src="c:\Users\H\OneDrive\Pictures\Screenshots\Screenshot (3).png"
+       </div>
+      <!-- Resume section -->
+       <div class="body">
+         <p class="demo1">RESUME.</p>
+         <a href="c:\Users\H\Downloads\resume.pdf">Resume.pdf</a>
+       </div>
+      <!-- Contact section -->
+       <div class="body">
+         <p class="demo1">CONTACT ME.</p>
+         <h1>EMAIL:</h1>
+         <p class="demo2">ghantasivahyma@gmail.com</p>
+         <h1>PHONE:</h1>
+         <p class="demo2">9391271738</p>
+       </div>
+       <!--footer section -->
+       <div class="body">
+         <footer>
+               <p>©copy right 2024.All rights reserved</p>
+         </footer>
+       </div>
+
+</body>
+</html>
